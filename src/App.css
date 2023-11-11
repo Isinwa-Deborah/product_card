@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.container {
+  background-color: black;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 150px;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.details {
+  background-color: white;
+  width: 600px;
+  height: 705px;
+}
+
+.title h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.title {
+  display: flex
+}
+
+.title h3 {
+  margin-top: 45px;
+  margin-left: 30px;
+  color: red;
+}
+
+.details h2 {
+  margin-top: -25px;
+  margin-left: 25px;
+  font-weight: 100;
+}
+
+.info h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 60px;
+  font-size: 20px;
+  color: brown;
+}
+
+.size {
+  display: flex;
+}
+
+.size h2 {
+  font-size: 20px;
+}
+
+.size p {
+  margin-left: 10px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #FB607F;
+  font-size: 20px;
+  font-weight: 400;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px 20px 10px 20px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price h2 {
+  margin-left: 200px;
+  margin-top: -40px;
+
 }
