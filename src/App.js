@@ -1,4 +1,5 @@
 import ProductCard from "./ProductCard";
+import ProductList from "./ProductList";
 
 
 function App() {
@@ -6,6 +7,10 @@ function App() {
   return (
     <div className="app">
       <ProductCard />
+
+      <div>
+        <ProductList />
+      </div>
     </div>
   );
 }
