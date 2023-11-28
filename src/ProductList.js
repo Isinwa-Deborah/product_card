@@ -1,22 +1,16 @@
 import { useState } from "react";
 import products from './products';
+import ProductItem from "./ProductItem";
 
 
-const ProductItem = () => {
-    const [productList, setProductList] = useState(products);
+const ProductList = () => {
+    const [productTemplate, setProductTemplate] = useState(products);
 
     return (
         <div className="productItem">
-            {productList.map((list) => (
-                <div className="listPreview" key={list.id}>
-                    <h2>{list.title}</h2>
-                    <p>{list.description}</p>
-                    <img src={list.image} alt="" srcset="" />
-                    <h3>{list.price}</h3>
-                    <p>{list.quantity}</p>
-                </div>
-            ))}
+            <ProductItem productTemplate={productTemplate} suggest="You may also like" />
+            <ProductItem productTemplate={productTemplate.filter((sales) => sales.title === "Aby Naturals")} suggest="Flash Sales" />
         </div>
     )
 }
-export default ProductItem;
+export default ProductList;

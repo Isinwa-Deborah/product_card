@@ -1,23 +1,23 @@
 body {
-  background-color: white;
-}
-
-.container {
-  background-color: #71797E;
-  height: 100vh;
+  background-color: #E5E4E2;
 }
 
 .card {
   display: flex;
-  padding-top: 150px;
-  padding-left: 20%;
-  padding-right: 15%;
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 60px;
+  border: 2px solid #FB607F;
+  border-radius: 5px;
+  height: 75.7vh;
 }
 
 .details {
   background-color: white;
   width: 600px;
   height: 705px;
+  /* border: 2px solid; */
 }
 
 .title h1 {
@@ -95,9 +95,22 @@ button {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.productItem {
-  margin-left: 20px;
-  margin-right: 20px;
+.product_suggestion {
+  margin-bottom: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.product_suggestion h1 {
+  background-color: #9F2B68;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product_item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px
@@ -106,9 +119,9 @@ button {
 .listPreview {
   border: 2px solid #FB607F;
   border-radius: 8px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  /* margin-top: -22px; */
   padding: 10px;
+  background-color: white;
 }
 
 .listPreview img {

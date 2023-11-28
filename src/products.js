@@ -3,6 +3,11 @@ import image2 from './assets/download.jfif';
 import image3 from './assets/cantu.jpg';
 import image4 from './assets/aunty_jackie.jpg';
 import image5 from './assets/gentle_touch.jpeg';
+import image6 from './assets/abyNaturals2.jpeg';
+import image7 from './assets/abyNaturals3.jpeg';
+import image8 from './assets/abyNaturals4.jpeg';
+import image9 from './assets/abyNaturals5.jpeg';
+import image10 from './assets/aunty_jackie2.jpg';
 
 const products = [
     {
@@ -48,7 +53,52 @@ const products = [
         price: '$100',
         quantity: '10 Units',
         id: 5
-    }
+    },
+
+    {
+        title: 'Aby Naturals',
+        description: 'Aby Naturals and Organic Hair Care Products is a Hair Care Brand that focuses on helping Women & kids grow and maintain a natural and healthier hair using quality, effective and natural hair care products to achieve their hair goals. We Care, While Your Hair Speaks',
+        image: image6,
+        price: '$150',
+        quantity: '15 Units',
+        id: 6
+    },
+
+    {
+        title: 'Aby Naturals',
+        description: 'Aby Naturals and Organic Hair Care Products is a Hair Care Brand that focuses on helping Women & kids grow and maintain a natural and healthier hair using quality, effective and natural hair care products to achieve their hair goals. We Care, While Your Hair Speaks',
+        image: image7,
+        price: '$150',
+        quantity: '15 Units',
+        id: 7
+    },
+
+    {
+        title: 'Aby Naturals',
+        description: 'Aby Naturals and Organic Hair Care Products is a Hair Care Brand that focuses on helping Women & kids grow and maintain a natural and healthier hair using quality, effective and natural hair care products to achieve their hair goals. We Care, While Your Hair Speaks',
+        image: image8,
+        price: '$150',
+        quantity: '15 Units',
+        id: 8
+    },
+
+    {
+        title: 'Aby Naturals',
+        description: 'Aby Naturals and Organic Hair Care Products is a Hair Care Brand that focuses on helping Women & kids grow and maintain a natural and healthier hair using quality, effective and natural hair care products to achieve their hair goals. We Care, While Your Hair Speaks',
+        image: image9,
+        price: '$150',
+        quantity: '15 Units',
+        id: 9
+    },
+
+    {
+        title: 'Aunty Jackie',
+        description: "special blend of products designed to nourish, hydrate and define your natural texture. All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.",
+        image: image10,
+        price: '$190',
+        quantity: '5 Units',
+        id: 10
+    },
 ]
 
 export default products;
