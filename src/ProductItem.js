@@ -1,7 +1,7 @@
-const ProductItem = ({ products, handleClick }) => {
+const ProductItem = ({ product, handleClick }) => {
 
 
-    const { title, description, image, price, quantity } = products;
+    const { title, description, image, price, quantity } = product;
     return (
         <div className="listPreview">
             <h2>{title}</h2>
