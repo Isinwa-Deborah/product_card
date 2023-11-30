@@ -12,7 +12,7 @@ import image10 from './assets/aunty_jackie2.jpg';
 const products = [
     {
         title: 'Hairven Natural Hair Product',
-        description: 'HAIRVEN Hair Care Products offers Moisturize and Soften Shampoo, Moisturize and Soften Conditioner, Smooth and Silky Serum, Moisturize and Soften Leave In Conditioner as well as hair styling services.',
+        description: 'HAIRVEN Hair Care Products offers Moisturize and Soften Shampoo, Moisturize and Soften Conditioner, Smooth and Silky Serum, Moisturize and Soften Leave In Conditioner as well as hair styling services.Moisturize and Soften Conditioner, Smooth and Silky Serum',
         image: image1,
         price: '$200',
         quantity: '20 Units',
@@ -39,7 +39,7 @@ const products = [
 
     {
         title: 'Aunty Jackie',
-        description: "special blend of products designed to nourish, hydrate and define your natural texture. All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.",
+        description: "special blend of products designed to nourish, hydrate and define your natural texture. All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.",
         image: image4,
         price: '$190',
         quantity: '5 Units',
@@ -93,7 +93,7 @@ const products = [
 
     {
         title: 'Aunty Jackie',
-        description: "special blend of products designed to nourish, hydrate and define your natural texture. All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.",
+        description: "special blend of products designed to nourish, hydrate and define your natural texture. All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.All Aunt Jackie's™are Sulfate-Free, Paraben-Free, and contain No Mineral Oil or Petrolatum.",
         image: image10,
         price: '$190',
         quantity: '5 Units',

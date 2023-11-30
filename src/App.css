@@ -110,7 +110,7 @@ button {
   padding-bottom: 10px;
 }
 
-.product_item {
+.productItem {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px
@@ -119,11 +119,16 @@ button {
 .listPreview {
   border: 2px solid #FB607F;
   border-radius: 8px;
-  /* margin-top: -22px; */
   padding: 10px;
   background-color: white;
+  height: 70vh;
 }
 
 .listPreview img {
   width: 70%;
+  height: 35%;
+}
+
+.product_btn {
+  margin-left: 0px;
 }

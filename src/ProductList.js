@@ -1,16 +1,26 @@
-import { useState } from "react";
-import products from './products';
+import React, { useState } from 'react';
 import ProductItem from "./ProductItem";
 
 
-const ProductList = () => {
-    const [productTemplate, setProductTemplate] = useState(products);
+const ProductList = ({ products }) => {
+    const [cart, setCart] = useState([]);
 
+    const addToCart = (product) => {
+
+        const newCart = [...cart, product];
+
+        setCart(newCart);
+
+        alert("Product has been added to cart")
+
+
+    }
     return (
         <div className="productItem">
-            <ProductItem productTemplate={productTemplate} suggest="You may also like" />
-            <ProductItem productTemplate={productTemplate.filter((sales) => sales.title === "Aby Naturals")} suggest="Flash Sales" />
+            {products.map((products) => (
+                <ProductItem products={products} key={products.id} handleClick={addToCart} />
+            ))}
         </div>
-    )
-}
+    );
+};
 export default ProductList;

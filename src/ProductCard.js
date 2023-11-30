@@ -28,7 +28,9 @@ const ProductCard = () => {
         }
     };
 
-
+    const handleCart = (e) => {
+        alert("Product has been added to cart");
+    }
     const handleClick = (e) => {
         alert("You liked this product");
     };
@@ -65,7 +67,7 @@ const ProductCard = () => {
                     <p>{stock}</p>
                 </div>
                 <div className='price'>
-                    <button>Add to Cart</button>
+                    <button onClick={handleCart}>Add to Cart</button>
                     <h2>{price} </h2>
                     <div>
                         <button onClick={handleClick}>Like</button>
